@@ -18,4 +18,24 @@ public class HelloController {
 		return "<b>Hello!<br />Ketelyn Medina</b>";
 	}
 	
+	@GetMapping("/bsm")
+	public String bsm() {
+		return "<b>Responsabilidade Pessoal<br />"
+				+"Mentalidade de Crescimento<br />"
+				+"Comunicação<br />"
+				+"Proatividade<br />"
+				+"Trabalho em Equipe<br />"
+				+"Persistência<br />"
+				+"Orientação ao Futuro<br />"
+				+"Orientação os Detalhes<br />";
+	}
+	
+	@GetMapping("/objetivos")
+	public String objetivos() {
+		return "<b>Objetivos<br />"
+				+"- Estudar mais Spring<br />"
+				+"- Praticar programação mais vezes<br />"
+				+"- Estudar Inglês para facilitar meu aprendizado<br />";
+	}
+	
 }
